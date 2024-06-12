@@ -1,4 +1,4 @@
-import 'package:coptic_calender/view/home_view/home_view.dart';
+import 'package:coptic_calender/view/splash_view/splash_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(useMaterial3: true),
-      home: const CalendarHomePage(),
+      home: const SplashScreen(),
     );
   }
 }
