@@ -43,6 +43,10 @@ class _CalendarHomePageState extends State<CalendarHomePage> {
         selected.month!,
         selected.day!,
       );
+      days = handler.monthCalendar(
+        selectedDate.year!,
+        selectedDate.month!,
+      );
     });
   }
 
